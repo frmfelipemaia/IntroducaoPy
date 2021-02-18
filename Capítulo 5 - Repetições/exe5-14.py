@@ -10,5 +10,4 @@ while True:
     if n == 0:
         break
     controle += 1
-print("Tiveram %d números e o resultado da média é: %d" % (controle, base/controle))
 print(f"Tiveram {controle} números e o resultado da média é: {base/controle}")

@@ -1,7 +1,7 @@
 #Cálculo de meses para pagar uma dívida baseado em pagamento mensal.
 
 dívida = float(input("Digite o valor da dívida: R$"))
-juros_mensal = float(input("Digite o valor do juros mensal: R$"))
+juros_mensal = float(input("Digite o valor do juros mensal: "))
 meses = 0
 resto = 0
 
