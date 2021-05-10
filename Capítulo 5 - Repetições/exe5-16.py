@@ -1,5 +1,4 @@
-# Contagem de cédulas
-
+# Contagem de cédulas NÃO FUNCIONA DIREITO :(
 valor = float(input("Digite o valor a pagar: "))
 notas_cem = 0
 notas_cinquenta = 0 
@@ -44,24 +43,24 @@ while True:
         valor = valor - 1 
         moedas_um += 1
         continue
-    elif valor >= 0.50:
-        valor = valor - 0.50
+    elif valor >= (1/2):
+        valor = valor - (1/2)
         moedas_cinquenta += 1
         continue
-    elif valor >= 0.25:
-        valor = valor - 0.25
+    elif valor >= (1/4):
+        valor = valor - (1/4)
         moedas_vinte_e_cinco += 1
         continue
-    elif valor >= 0.10:
-        valor = valor - 0.10
+    elif valor >= (1/10):
+        valor = valor - (1/10)
         moedas_dez += 1
         continue
-    elif valor >= 0.05:
-        valor = valor - 0.05
+    elif valor >= (1/20):
+        valor = valor - (1/20)
         moedas_cinco += 1
         continue
-    elif valor >= 0.01:
-        valor = valor - 0.01
+    elif valor >= (1/100):
+        valor = valor - (1/100)
         moedas_centena += 1
         continue
     # elif valor >= 0.001:
